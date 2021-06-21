@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "365412889090",
+    "project_id": "siaconnect-301708",
+    "storage_bucket": "siaconnect-301708.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365412889090:android:4cb1c0a9d832908a39ed1b",
+        "android_client_info": {
+          "package_name": "com.sea.seaconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365412889090-4mvp0vh3ct8755kcv4iauivjetmk500g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPcrcEO4L3yVfnpYfZ2bm4VuqIpO47QT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365412889090-4mvp0vh3ct8755kcv4iauivjetmk500g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "365412889090-vf6s7sk0m8l5lv70t8urd0kehcr9cpdj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.SiaConnect"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

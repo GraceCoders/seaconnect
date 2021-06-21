@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup_bg"
+    tools:context=".view.activity.ChooseInterestActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+            <com.sea.seaconnect.controller.CustomViews.MyTextViewNunitoBold
+                android:id="@+id/tvWelcomeText"
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:text="Welcome, Nishant"
+                android:textSize="@dimen/_24sdp"
+                android:layout_height="wrap_content"/>
+            <com.sea.seaconnect.controller.CustomViews.MyTextViewMedium
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="@string/choose_intereaction"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/_20sdp"
+                android:layout_height="wrap_content"/>
+            <com.sea.seaconnect.controller.CustomViews.MyTextViewMedium
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/choose_type"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/_20sdp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1.7"
+            android:background="@drawable/boarder_outer_white"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_height="0dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/rv_interest"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:id="@+id/ll_choose_intereset"
+            android:layout_weight=".3"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_height="0dp">
+            <com.sea.seaconnect.controller.CustomViews.MyTextViewNunitoBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/connect"
+                android:gravity="center"
+                android:background="@drawable/boarder_round_login"
+                android:padding="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:textSize="@dimen/_14sdp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clLoader_interest"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:indeterminate="true"
+            android:indeterminateTintMode="src_atop"
+            android:indeterminateTint="@color/colorAccent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

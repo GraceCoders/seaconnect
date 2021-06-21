@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_140sdp"
+    android:layout_height="@dimen/_200sdp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/boarder_gray_outer"
+        android:layout_height="match_parent">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userImage"
+            android:layout_width="@dimen/_100sdp"
+            android:src="@drawable/user"
+            android:layout_height="@dimen/_120sdp"/>
+        <com.sea.seaconnect.controller.CustomViews.MyTextViewRegular
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:text="Lyna Hyden"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp"
+            android:layout_height="wrap_content"/>
+        <com.sea.seaconnect.controller.CustomViews.MyTextViewBold
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:text="@string/review"
+            android:padding="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:textColor="@color/colorAccent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

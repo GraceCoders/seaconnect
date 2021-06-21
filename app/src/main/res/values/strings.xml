@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">SeaConnect</string>
+
+    //login
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="cnfrm_password">Confirm Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="connect">Connect</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+
+    //gender array
+    <string-array name="Gender">
+        <item>Select Gender</item>
+        <item>Man</item>
+        <item>Woman</item>
+        <item>TransGender</item>
+    </string-array>
+    //gender you want to meet
+
+    <string-array name="GenderMeet">
+        <item>Select Gender you want to meet</item>
+        <item>Man</item>
+        <item>Woman</item>
+        <item>TransGender</item>
+    </string-array>
+
+    <string-array name="AgeRange">
+        <item>Age range of person to meet</item>
+        <item>18-25</item>
+        <item>25-40</item>
+        <item>40-55</item>
+        <item>55-70</item>
+    </string-array>
+
+    //SideBar
+    <string name="edit_profile">Edit Profile</string>
+    <string name="connection">Connections</string>
+    <string name="notifications">Notifications</string>
+    <string name="reviews">Reviews</string>
+    <string name="subscriptions">Subscriptions</string>
+    <string name="blocked">Blocked Users</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="logout">Logout</string>
+    <string name="view_profile">View Profile</string>
+
+
+    //Profile
+
+    <string name="profile">Profile</string>
+    <string name="bio">Bio</string>
+    <string name="photos">Photos</string>
+    <string name="view_more">View more</string>
+    <string name="keep_looking">Keep Looking</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="later">May be later</string>
+    <string name="save">Save</string>
+
+    //review
+    <string name="review">Review</string>
+    <string name="public_review">Public Review</string>
+    <string name="user_photo_reviews">1. Were user’s photos accurate?</string>
+    <string name="user_bio_reviews">2. Was the bio consistent with how they presented?</string>
+    <string name="user_intereaction_reviews">3. How would you rate your interaction experience?</string>
+    <string name="user_intereaction_better_reviews">4. How could interaction have been better?</string>
+    <string name="suggestions">Your suggestions here</string>
+    <string name="private_review">Private Review</string>
+    <string name="user_meet_reviews">5. Would you meet this person again?</string>
+    <string name="user_feedback_reviews">6. Do you have any feedback for the other user?</string>
+    <string name="submit">Submit</string>
+
+
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</string>
+
+
+    //chooseInteractionType
+    <string name="choose_intereaction">Choose the type of</string>
+    <string name="choose_type">interaction you are looking for</string>
+
+    //signup
+    <string name="upload_pictures">Upload Pictures</string>
+    <string name="first_name">Firstname</string>
+    <string name="user_name">Username</string>
+    <string name="Password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="dob">D.O.B</string>
+    <string name="gender">Gender</string>
+    <string name="gender_meet">Gender you want to meet</string>
+    <string name="person_meet">Age range of person to meet</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="looking_for">What are you looking for?</string>
+    <string name="please_insert">Please insert max 1000 characters</string>
+    <string name="tell_other">Tell other users a little more about yourself including favourite things to do, how you would describe your personality and any pet hates. What are you looking for on this app?</string>
+
+
+    //error
+    <string name="error_empty_user_id">Please enter your Email Address</string>
+    <string name="error_empty_user_name">Please enter your User Name</string>
+    <string name="error_empty_first_name">Please enter your  Name</string>
+    <string name="error_empty_last_name">Please enter your Last Name</string>
+    <string name="error_empty_password">Please enter your Password</string>
+    <string name="error_empty_cfm_password">Please enter your confirm Password</string>
+    <string name="error_authentication">User not found</string>
+    <string name="error_store_name">Please enter your Store Name</string>
+    <string name="error_store_address">Please enter your Store Address</string>
+    <string name="error_store_about">Please enter About</string>
+    <string name="error_store_contact_details">Please enter Contact Details</string>
+    <string name="error_store_location">Please select Location</string>
+    <string name="error_store_logo">Please select Logo</string>
+    <string name="error_all_field_required">All Field Are Required</string>
+    <string name="error_Bio">Please Enter Bio</string>
+    <string name="error_DOB">Please Select Date of Birth</string>
+    <string name="error_mobile_number">Please enter Mobile Number</string>
+    <string name="say_hi">,says Hi!</string>
+    <string name="request_send">Request Send Successfully</string>
+    <string name="connection_request">Connection Request</string>
+    <string name="no_notification">No Notification Found</string>
+    <string name="blocked_user">Blocked Users</string>
+    <string name="no_blocked_user">No Booked User Found</string>
+    <string name="load_earlier_messages">Load Earlier Messages</string>
+    <string name="welcome">"Welcome, "</string>
+</resources>
