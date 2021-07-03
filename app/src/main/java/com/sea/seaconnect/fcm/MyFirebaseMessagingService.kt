@@ -31,7 +31,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
     companion object {
 
         // Push notification types
-        const val PUSH_TYPE_CONNECTION = "connection"
+        const val PUSH_TYPE_CONNECTION = "ConnectionRequestSent"
         const val PUSH_TYPE_CHAT = "chat"
 
 
